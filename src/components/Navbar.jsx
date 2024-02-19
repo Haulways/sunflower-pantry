@@ -17,7 +17,7 @@ export default function Navbar(){
    
     return(
         <>
-        <nav className={'snf-navbar z-20 h-[90px] fixed w-full left-[0] bg-transparent z-index-[20] px-[50px] flex items-center justify-between'}>
+        <nav className={'snf-navbar z-20 h-[90px] fixed w-full left-[0] bg-transparent px-[50px] flex items-center justify-between'}>
             <div className="w-[100px]">
                 <Link to="/">
                     <img className="max-w-[100px] w-full block" src={Logo} alt="" />
