@@ -10,7 +10,6 @@ function App() {
     <>
     <section className="snf-body-section">
       <Navbar />
-      <Loader />
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path='/' element={<Home />} />
