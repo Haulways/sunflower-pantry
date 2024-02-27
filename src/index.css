@@ -38,10 +38,20 @@
 .header-swiper{
     height: 700px !important;
 }
+
 .custom-bullet{
     opacity: .5;
+    margin-bottom: 1rem;
 }
 .active-bullet{
-    width: 150px;
     opacity: 1;
+    /* color: red; */
 }
+.varieties-swiper{
+    width: 800px;
+    overflow: initial !important;
+    margin-left: 0 !important;
+}
+/* .varieties-swiper .swiper-wrapper .swiper-slide{
+    margin-right: 50px !important;
+} */

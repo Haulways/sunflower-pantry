@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "iconsax-react": "^0.0.8",
     "lucide-react": "^0.331.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
+    "react-hook-form": "^7.50.1",
     "react-router-dom": "^6.22.0",
     "swiper": "^11.0.6"
   },

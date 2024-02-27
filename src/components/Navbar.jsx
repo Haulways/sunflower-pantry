@@ -25,9 +25,9 @@ export default function Navbar(){
             </div>
             <div className="px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px]">
                 <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Home</Link>
-                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Home</Link>
-                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Home</Link>
-                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Home</Link>
+                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">About</Link>
+                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Why choose us</Link>
+                <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] text-[95%] font-medium" to="/">Contact</Link>
             </div>
             <div className="flex items-center">
                 <div className="px-[2.5rem] py-[1rem] bg-[#fff] rounded-[100px]">
