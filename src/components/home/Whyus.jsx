@@ -22,80 +22,80 @@ export default function Whyus(){
     }, [])
     return(
         <>
-        <section className='px-[50px] pt-[20px] pb-[170px]'>
-            <div className='flex justify-between pr-[50px]'>
-                <div data-aos="fade-right" data-aos-duration="800" className='w-[calc(100%-400px)]'>
+        <section className='lg:px-[50px] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px]'>
+            <div className='flex flex-wrap justify-between pr-[50px]'>
+                <div data-aos="fade-right" data-aos-duration="800" className='lg:w-[calc(100%-400px)] w-full'>
                     <p className='xui-opacity-6 text-[80%]'>(03)</p>
                     <p className='text-[100%]'>Why Choose Us?</p>
                 </div>
-                <div className='w-[400px]'>
+                <div className='lg:w-[400px] w-full'>
                 <h1 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[170%]'>We take pride in being your go-to platform for a delightful shopping experience.</h1>
                 </div>
             </div>
-            <div className='flex mt-[40px]'>
-                <div className='basis-[60%]'>
-                    <div className={'w-full flex items-center border-b cursor-pointer border-gray-400 p-[20px] ' + (activeTab === 0 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(0)}>
-                        <div className='w-[200px]'>
+            <div className='flex flex-wrap mt-[40px]'>
+                <div className='basis-[60%] custom-holder'>
+                    <div className={'w-full flex justify-between items-center border-b cursor-pointer border-gray-400 p-[20px] ' + (activeTab === 0 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(0)}>
+                        <div className='lg:w-[200px] w-auto'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <Global size="22" color="#FFF"/>
                             </span>
                         </div>
-                        <div className='w-[calc(100%-400px)]'>
-                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[140%]'>Diverse Selection</h3>
+                        <div className='lg:w-[calc(100%-400px)] w-auto text-center lg:px-[0] px-[1rem]'>
+                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='lg:text-[140%] text-[90%]'>Diverse Selection</h3>
                         </div>
-                        <div className='w-[200px] flex justify-end'>
+                        <div className='lg:w-[200px] w-auto flex justify-end'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <MoveUpRight color='#FFF'/>
                             </span>
                         </div>
                     </div>
-                    <div className={'w-full flex items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 1 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(1)}>
-                        <div className='w-[200px]'>
+                    <div className={'w-full flex justify-between items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 1 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(1)}>
+                        <div className='lg:w-[200px] w-auto'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <PenTool size="22" color="#FFF"/>
                             </span>
                         </div>
-                        <div className='w-[calc(100%-400px)]'>
-                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[140%]'>Fresh From the Farm</h3>
+                        <div className='lg:w-[calc(100%-400px)] w-auto text-center lg:px-[0] px-[1rem]'>
+                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='lg:text-[140%] text-[90%]'>Fresh From the Farm</h3>
                         </div>
-                        <div className='w-[200px] flex justify-end'>
+                        <div className='lg:w-[200px] w-auto flex justify-end'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <MoveUpRight color='#FFF'/>
                             </span>
                         </div>
                     </div>
-                    <div className={'w-full flex items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 2 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(2)}>
-                        <div className='w-[200px]'>
+                    <div className={'w-full flex justify-between items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 2 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(2)}>
+                        <div className='lg:w-[200px] w-auto'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <PresentionChart size="22" color="#FFF"/>
                             </span>
                         </div>
-                        <div className='w-[calc(100%-400px)]'>
-                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[140%]'>Quality Assurance</h3>
+                        <div className='lg:w-[calc(100%-400px)] w-auto text-center lg:px-[0] px-[1rem]'>
+                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='lg:text-[140%] text-[90%]'>Quality Assurance</h3>
                         </div>
-                        <div className='w-[200px] flex justify-end'>
+                        <div className='lg:w-[200px] w-auto flex justify-end'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <MoveUpRight color='#FFF'/>
                             </span>
                         </div>
                     </div>
-                    <div className={'w-full flex items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 3 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(3)}>
-                        <div className='w-[200px]'>
+                    <div className={'w-full flex justify-between items-center cursor-pointer border-b border-gray-400 p-[20px] mt-[30px] ' + (activeTab === 3 ? 'bg-[#363733] text-white rounded-[12px]' : 'xui-bg-none')} onClick={() => handleTabClick(3)}>
+                        <div className='lg:w-[200px] w-auto'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <Activity size="22" color="#FFF"/>
                             </span>
                         </div>
-                        <div className='w-[calc(100%-400px)]'>
-                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[140%]'>Farm to Fork Transparency</h3>
+                        <div className='lg:w-[calc(100%-400px)] w-auto text-center lg:px-[0] px-[1rem]'>
+                            <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='lg:text-[140%] text-[90%]'>Farm to Fork Transparency</h3>
                         </div>
-                        <div className='w-[200px] flex justify-end'>
+                        <div className='lg:w-[200px] w-auto flex justify-end'>
                             <span className='w-[50px] h-[50px] inline-flex items-center justify-center rounded-[50%] bg-[#000]'>
                                 <MoveUpRight color='#FFF'/>
                             </span>
                         </div>
                     </div>
                 </div>
-                <div className='basis-[40%] pl-[20px]'>
+                <div className='basis-[40%] custom-holder lg:pl-[20px] pl-[0] lg:mt-[0] mt-[30px]'>
                     {activeTab === 0 && 
                         <div>
                             <img className='h-[250px] w-full rounded-[12px]' src="https://img.freepik.com/free-photo/preserved-food-arrangement_23-2149238972.jpg?t=st=1709051050~exp=1709054650~hmac=1f4a492981abb05482af6d556be04c89bce6c3b73a6a8e1df8e7e8338445ffa6&w=740" alt="" />

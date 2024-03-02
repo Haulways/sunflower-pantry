@@ -22,9 +22,9 @@ export default function Contact(){
     }, [])
     return(
         <>
-        <section className='px-[50px] pt-[20px] pb-[170px]'>
-            <div className='flex justify-between pr-[50px]'>
-                <div data-aos="fade-right" data-aos-duration="800" className='w-[calc(100%-400px)]'>
+        <section className='lg:px-[50px] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px]'>
+            <div className='flex flex-wrap justify-between pr-[50px]'>
+                <div data-aos="fade-right" data-aos-duration="800" className='lg:w-[calc(100%-400px)] w-full'>
                     <p className='xui-opacity-6 text-[80%]'>(04)</p>
                     <p className='text-[100%]'>Contact Us</p>
                     <h3 className='text-[105%] lg:w-[70%] w-full text-[200%]'>Let's discuss your vision 
@@ -37,8 +37,8 @@ export default function Contact(){
                         </div>
                     </Link> with us.</h3>
                 </div>
-                <div className='w-[400px]'>
-                <h1 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[170%]'>Your satisfaction and feedback are important to us. Feel free to reach out </h1>
+                <div className='lg:w-[400px] w-full lg:mt-[0] mt-[30px]'>
+                    <h1 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[170%]'>Your satisfaction and feedback are important to us. Feel free to reach out </h1>
                 </div>
             </div>
             <form className="xui-mt-2" noValidate onSubmit={handleSubmit(sendRequest)} autoComplete="off">

@@ -55,3 +55,33 @@
 /* .varieties-swiper .swiper-wrapper .swiper-slide{
     margin-right: 50px !important;
 } */
+@media screen and (max-width: 768px) {
+    .nav-links{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: black;
+        border-radius: 0;
+        top: var(--navbarHeight);
+        left: -200%;
+        width: 100%;
+        transition: .6s ease;
+    }
+    .nav-links a{
+        margin-bottom: 2rem;
+    }
+    .nav-links.open {
+        left: 0;
+    }
+    .header-swiper{
+        height: 850px !important;
+    }
+    .custom-holder{
+        flex-basis: 100%;
+    }
+    .hx-category-line-box{
+        width: 100%;
+    }
+    
+}

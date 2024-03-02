@@ -48,24 +48,24 @@ export default function Varieties(){
     }, [])
     return(
         <>
-        <section className='px-[50px] pt-[50px] pb-[170px]'>
+        <section className='lg:px-[50px] px-[20px] pt-[50px] lg:pb-[170px] pb-[60px]'>
             <div className='bg-[#363733] text-white px-[20px] py-[50px] rounded-[12px]'>
-                <div className='flex justify-between pr-[50px]'>
-                    <div data-aos="fade-right" data-aos-duration="800" className='w-[calc(100%-200px)]'>
+                <div className='flex flex-wrap justify-between pr-[50px]'>
+                    <div data-aos="fade-right" data-aos-duration="800" className='lg:w-[calc(100%-200px)] w-full'>
                         <p className='xui-opacity-6 text-[80%]'>(02)</p>
                         <p className='text-[100%]'>Our Varieties</p>
                         <h1 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[170%]'>Explore a Variety of Choices</h1>
                     </div>
-                    <div className='w-[200px]'>
+                    <div className='lg:w-[200px] w-full lg:mt-[0] mt-[30px]'>
                         <CustomPagination slideCount={7} activeIndex={0} onBulletClick={(index) => console.log(index)} />
                     </div>
                 </div>
-                <div className='flex py-[35px] items-flex-end'>
-                    <div data-aos="fade-right" data-aos-duration="800" className='basis-[20%]'>
+                <div className='flex flex-wrap py-[35px] items-flex-end'>
+                    <div data-aos="fade-right" data-aos-duration="800" className='basis-[20%] custom-holder'>
                         <h3 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[120%]'>Our Product Categories</h3>
-                        <p className='text-[100%]'>Our Varieties</p>
+                        <p className='text-[100%] lg:inline-block hidden'>Our Varieties</p>
                     </div>
-                    <div className='basis-[80%] xui-overflow-x-hidden'>
+                    <div className='basis-[80%] xui-overflow-x-hidden custom-holder lg:mt-[0] mt-[30px]'>
                     <Swiper
                         modules={[Autoplay]}
                         direction="horizontal"

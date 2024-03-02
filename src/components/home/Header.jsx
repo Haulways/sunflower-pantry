@@ -66,11 +66,11 @@ export default function Home(){
     return(
         <>
         <div className='relative'>
-            <div className="h-full w-full flex items-center pl-[50px] absolute z-10 text-[#FFF]">
-                <div>
-                <h1 className="text-[300%] w-[60%] font-medium" data-aos="fade-up" data-aos-duration="800">Welcome to Sunflower Pantry, Your Gateway to Freshness and Convenience</h1>
-                    <div className='flex items-center mt-[5rem]'>
-                        <div className='basis-[50%]'>
+            <div className="h-full w-full flex items-center lg:pl-[50px] pl-[20px] absolute z-10 text-[#FFF]">
+                <div className='lg:pt-[0] pt-[50px] w-full'>
+                <h1 className="lg:text-[300%] text-[250%] lg:w-[60%] w-full font-medium" data-aos="fade-up" data-aos-duration="800">Welcome to Sunflower Pantry, Your Gateway to Freshness and Convenience</h1>
+                    <div className='flex lg:flex-row flex-col items-center mt-[5rem]'>
+                        <div className='xui-lg-col-6 xui-col-12 '>
                             <section className="hx-category-line-box xui-d-flex xui-flex-ai-center xui-grid-gap-1 xui-py-1">
                                 <span data-aos="fade-in" data-aos-delay="200" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg">Wheat</span>
                                 <span data-aos="fade-in" data-aos-delay="400" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg">Rice</span>
@@ -79,7 +79,7 @@ export default function Home(){
                                 <span data-aos="fade-in" data-aos-delay="1000" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg">Fruits</span>
                             </section>
                         </div>
-                        <div className='basis-[50%] relative'>
+                        <div className='xui-lg-col-6 xui-col-12 relative lg:block hidden'>
                             <CustomPagination slideCount={3} activeIndex={0} onBulletClick={(index) => console.log(index)} />
                         </div>
                     </div>
