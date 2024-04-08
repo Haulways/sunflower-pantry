@@ -27,7 +27,7 @@ export default function Navbar(){
                     <img className="max-w-[100px] w-full block" src={Logo} alt="" />
                 </Link>
             </div>
-            <div className={`px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px] nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
+            <div className={`nav-links px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px] nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
                 <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" to="/">Home</Link>
                 <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" to="/">About</Link>
                 <Link className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" to="/">Why choose us</Link>
