@@ -41,7 +41,7 @@ export default function HeaderSlider(){
             autoplay={true}
             onSwiper={(swiper) => console.log(swiper)}
             breakpoints={breakpoints}
-            className="header-swiper2 w-[600px] !pr-[14rem] !mr-[-3rem] mt-[1.5rem]"
+            className="header-swiper2 w-[600px] !pr-[14rem] mt-[1.5rem]"
             >
             <SwiperSlide>
                 <div className="p-[1rem] glass-bg rounded-[1rem] flex items-center">

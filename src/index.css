@@ -85,6 +85,9 @@ html, body, .xui-font-9{
 .header-swiper{
     height: 700px !important;
 }
+.header-swiper2{
+    overflow: visible !important;
+}
 .whyus-swiper{
     height: 450px !important;
 }
