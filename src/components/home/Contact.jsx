@@ -23,7 +23,7 @@ export default function Contact(){
     }, [])
     return(
         <>
-        <section id='contact' className='lg:px-[50px] px-[20px] pt-[20px] mt-[2rem] lg:pb-[170px] pb-[60px]'>
+        <section id='contact' className='lg:px-[50px] px-[20px] pt-[20px] mt-[2rem] lg:pb-[20px] pb-[20px]'>
             <div className='p-[2rem] bg-[#F9F9F9] rounded-[1rem]'>
             <div className='xui-row py-[1rem]' style={{"borderBottom": "3px solid #000"}}>
                 <div data-aos="fade-right" data-aos-duration="800" className='xui-lg-col-8 xui-col-12'>
