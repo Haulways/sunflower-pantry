@@ -99,6 +99,7 @@
 .varieties-swiper{
     width: 960px;
     margin-left: inherit !important;
+    overflow: visible !important;
     /* overflow: initial !important;
     margin-left: 0 !important; */
 }
