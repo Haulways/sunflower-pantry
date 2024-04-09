@@ -24,6 +24,19 @@
     position: relative;
     z-index: 1;
 }
+.snf-navbar.alternative-nav-color{
+    background-color: #FFF;
+}
+.snf-navbar.alternative-nav-color .nav-links a{
+    color: #000;
+}
+.snf-navbar.alternative-nav-color .get-started, .snf-navbar.alternative-nav-color .get-started-circle{
+    background-color: #000;
+    color: #FFF;
+}
+.snf-navbar.alternative-nav-color .get-started-circle svg{
+    color: #fff;
+}
 .nav-links::before{
     position: absolute;
     content: "";
