@@ -74,12 +74,12 @@ export default function Varieties(){
                         direction="horizontal"
                         speed={500}
                         spaceBetween={20}
-                        slidesPerView={1}
+                        slidesPerView={2}
                         autoplay={true}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
                         // breakpoints={breakpoints}
-                        className="varieties-swiper !pr-[26rem]"
+                        className="varieties-swiper"
                     >
                         <SwiperSlide>
                             <div className="bg-cover bg-center flex w-full h-full rounded-[12px] pt-[180px] pl-[50px]  pb-[60px]"
