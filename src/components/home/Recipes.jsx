@@ -26,7 +26,7 @@ export default function Recipes(){
     }, [])
     return(
         <>
-        <section className='lg:px-[50px] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px]'>
+        <section id='recipes' className='lg:px-[50px] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px]'>
             <div className='flex flex-wrap mt-[40px]'>
                 <div className='basis-[50%] custom-holder'>
                     <div data-aos="fade-right" data-aos-duration="800" className='mb-[7rem]'>

@@ -40,20 +40,20 @@ export default function Whyus(){
     }, [])
     return(
         <>
-        <section className='lg:px-[50px] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px] overflow-x-hidden'>
+        <section id='social-categories' className='lg:px-[50px] bg-[#F9F9F9] px-[20px] pt-[20px] lg:pb-[170px] pb-[60px] overflow-x-hidden'>
             <div className='xui-row'>
                 <div data-aos="fade-right" data-aos-duration="800" className='xui-lg-col-6 xui-col-12'>
                     <p className='xui-opacity-8 text-[80%]'>(04)</p>
-                    <p className='text-[100%]'>Why Choose Us</p>
-                    <h3 className='xui-opacity-8 text-[105%] lg:w-[70%] w-full mt-[8rem] xui-font-9'>Discover the flavors of fresh produce, indulge in gourmet treats, and uncover hidden gems that will elevate your cooking to new heights.</h3>
+                    <p className='text-[100%]'>Social categories</p>
+                    <h3 className='xui-opacity-8 text-[105%] lg:w-[80%] w-full lg:mt-[8rem] mt-[4rem] xui-font-9'>Discover the flavors of fresh produce, indulge in gourmet treats, and uncover hidden gems that will elevate your cooking to new heights.</h3>
                 </div>
                 <div className='xui-lg-col-6 xui-col-12 lg:mt-[0] mt-[20px]'>
                     <h1 data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" className='text-[120%] xui-font-9'>We take pride in being your go-to platform for a delightful shopping experience. From farm-fresh produce to artisanal delights, our pantry is stocked with a diverse selection of premium ingredients sourced from trusted suppliers</h1>
-                    <Link data-aos="fade-down" data-aos-delay="600" data-aos-duration="800" to="/" className="inline-flex items-center mt-[2rem]">
-                        <div className="px-[2rem] py-[1rem] bg-[#fff] rounded-[100px] border border-black">
+                    <Link data-aos="fade-down" data-aos-delay="600" data-aos-duration="800" to="/about" className="inline-flex items-center mt-[2rem]">
+                        <div className="px-[2rem] py-[1rem] bg-[none] rounded-[100px] border border-black">
                             <p className='text-[80%]'>LEARN MORE</p>
                         </div>
-                        <div className="w-[50px] h-[50px] ml-[-5px] flex justify-center items-center py-[1rem] bg-[#000] rounded-[50%]">
+                        <div className="w-[50px] h-[50px] ml-[5px] flex justify-center items-center py-[1rem] bg-[#000] rounded-[50%]">
                             <MoveUpRight color='#FFF' />
                         </div>
                     </Link>
@@ -68,17 +68,17 @@ export default function Whyus(){
                 slidesPerView={2}
                 autoplay={true}
                 onSwiper={(swiper) => console.log(swiper)}
-                // breakpoints={breakpoints}
-                className="whyus-swiper !pr-[12rem] mt-[3rem] !mr-[-5rem]"
+                breakpoints={breakpoints}
+                className="whyus-swiper !lg:pr-[12rem] !pr-[8rem] mt-[3rem] !mr-[-5rem]"
             >
                 <SwiperSlide>
                     <div className="bg-cover bg-center flex w-full h-full rounded-[12px]"
                         style={{backgroundImage: `url(${WhyUs1})`}}>
                         <div className='xui-overlay-1 rounded-[1rem] h-full w-full flex items-end p-[2rem]'>
                             <div>
-                                <h3 className='text-[150%] xui-font-9'>Diverse Selection</h3>
-                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[70%] w-full'>Explore a wide array of products curated to meet your culinary needs.</p>
-                                <Link className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
+                                <h3 className='text-[150%] xui-font-9'>Come Taste With Me (CTWM)</h3>
+                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[80%] w-full'>Experience the joy of shared dining experiences with our CTWM feature.</p>
+                                <Link to='/about' className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
                                     <p className='text-[90%] text-black'>MORE DETAILS</p>
                                     <ArrowRight size='19px' color='#000'/>
                                 </Link>
@@ -91,9 +91,9 @@ export default function Whyus(){
                         style={{backgroundImage: `url(${WhyUs2})`}}>
                         <div className='xui-overlay-1 rounded-[1rem] h-full w-full flex items-end p-[2rem]'>
                             <div>
-                                <h3 className='text-[150%] xui-font-9'>Fresh From the Farm</h3>
-                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[70%] w-full'>Our commitment to freshness is unparalleled. We source directly from local farms,</p>
-                                <Link className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
+                                <h3 className='text-[150%] xui-font-9'>FoodBook: Video Recipe Card Vault</h3>
+                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[80%] w-full'>Access a treasure trove of video recipe cards featuring a diverse range of dishes, cooking techniques, and culinary inspirations.</p>
+                                <Link to='/about' className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
                                     <p className='text-[90%] text-black'>MORE DETAILS</p>
                                     <ArrowRight size='19px' color='#000'/>
                                 </Link>
@@ -106,9 +106,9 @@ export default function Whyus(){
                         style={{backgroundImage: `url(${WhyUs3})`}}>
                         <div className='xui-overlay-1 rounded-[1rem] h-full w-full flex items-end p-[2rem]'>
                             <div>
-                                <h3 className='text-[150%] xui-font-9'>Quality Assurance</h3>
-                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[70%] w-full'>Sunflower Pantry is dedicated to providing you with nothing but the best. </p>
-                                <Link className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
+                                <h3 className='text-[150%] xui-font-9'>FoodHauls</h3>
+                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[80%] w-full'>Indulge in the ultimate foodie experience with our FoodHauls category. Immerse yourself in mukbang-style videos showcasing tantalizing food hauls from various vendors and eateries.  </p>
+                                <Link to='/about' className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
                                     <p className='text-[90%] text-black'>MORE DETAILS</p>
                                     <ArrowRight size='19px' color='#000'/>
                                 </Link>
@@ -121,9 +121,9 @@ export default function Whyus(){
                         style={{backgroundImage: `url(${WhyUs4})`}}>
                         <div className='xui-overlay-1 rounded-[1rem] h-full w-full flex items-end p-[2rem]'>
                             <div>
-                                <h3 className='text-[150%] xui-font-9'>Diverse Selection</h3>
-                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[70%] w-full'>Explore a wide array of products curated to meet your culinary needs.</p>
-                                <Link className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
+                                <h3 className='text-[150%] xui-font-9'>E-commerce Integration</h3>
+                                <p className='text-[90%] mt-[.5rem] xui-opacity-8 xui-line-height-1-half lg:w-[80%] w-full'>Seamlessly transition from inspiration to action with our integrated e-commerce platform.</p>
+                                <Link to='/about' className='flex items-center justify-between bg-[#FFF] p-[1rem] mt-[1rem] rounded-[1.3rem]'>
                                     <p className='text-[90%] text-black'>MORE DETAILS</p>
                                     <ArrowRight size='19px' color='#000'/>
                                 </Link>

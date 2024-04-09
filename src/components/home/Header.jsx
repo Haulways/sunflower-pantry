@@ -74,16 +74,23 @@ export default function Home(){
                 <div className='lg:pt-[120px] pb-[70px] pt-[50px] w-full'>
                 <h1 className="lg:text-[350%] text-[250%] lg:w-[40%] w-full font-bold xui-font-9" data-aos="fade-up" data-aos-duration="800">Welcome To Sunflower Pantry</h1>
                 <p className='text-[90%] mt-[1rem] tracking-[.25em]'>Where Good Food Grows!</p>
-                    <div className='flex lg:flex-row flex-col items-center mt-[2rem]'>
+                    <div className='flex lg:flex-row flex-col lg:items-center items-start mt-[2rem]'>
                         <div className='xui-lg-col-6 xui-col-12 '>
-                            <section className="hx-category-line-box xui-d-grid xui-grid-col-3 xui-flex-ai-center xui-grid-gap-1 xui-py-1">
+                            <section className="hx-category-line-box xui-d-flex xui-grid-col-1 xui-flex-ai-center xui-grid-gap-1 xui-py-1">
+                                <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Vegetables</div>
+                                <div data-aos="fade-in" data-aos-delay="400" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Pumpkin</div>
+                                <div data-aos="fade-in" data-aos-delay="600" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Wheat</div>
+                                <div data-aos="fade-in" data-aos-delay="800" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Fruits</div>
+                                <div data-aos="fade-in" data-aos-delay="1000" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Rice</div>
+                            </section>
+                            {/* <section className="hx-category-line-box xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-flex-ai-center xui-grid-gap-1 xui-py-1">
                                 <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Vegetables</div>
                                 <div data-aos="fade-in" data-aos-delay="400" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Pumpkin</div>
                                 <div></div>
                                 <div data-aos="fade-in" data-aos-delay="600" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Wheat</div>
                                 <div data-aos="fade-in" data-aos-delay="800" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Fruits</div>
                                 <div data-aos="fade-in" data-aos-delay="1000" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Rice</div>
-                            </section>
+                            </section> */}
                         </div>
                         <div className='xui-lg-col-6 xui-col-12 relative lg:block hidden overflow-hidden'>
                             <CustomPagination slideCount={3} activeIndex={0} onBulletClick={(index) => console.log(index)} />
