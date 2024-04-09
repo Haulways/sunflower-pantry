@@ -56,14 +56,14 @@ export default function Navbar(){
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#social-categories">Social categories</HashLink>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#contact">Contact</HashLink>
             </div>
-            <div className="lg:flex hidden items-center">
+            <HashLink smooth to='#about' className="lg:flex hidden items-center">
                 <div className="px-[2.5rem] py-[1rem] bg-[#fff] get-started rounded-[100px]">
                     <p>Get started</p>
                 </div>
                 <div className="w-[50px] h-[50px] get-started-circle ml-[-5px] flex justify-center items-center py-[1rem] bg-[#fff] rounded-[50%]">
                     <MoveUpRight />
                 </div>
-            </div>
+            </HashLink>
             <div className="lg:hidden block" onClick={handleMobileMenuToggle}>
                 <AlignLeft color="#FFF" size="30px" />
             </div>
