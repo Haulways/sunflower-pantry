@@ -97,7 +97,8 @@
     background-color: rgba(0,0,0,.2);
 } */
 .varieties-swiper{
-    width: 800px;
+    width: 960px;
+    margin-left: inherit !important;
     /* overflow: initial !important;
     margin-left: 0 !important; */
 }
