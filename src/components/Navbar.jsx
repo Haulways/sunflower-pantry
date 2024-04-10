@@ -64,7 +64,7 @@ export default function Navbar(){
                     <MoveUpRight />
                 </div>
             </HashLink>
-            <div className="lg:hidden block" onClick={handleMobileMenuToggle}>
+            <div className="lg:hidden block menu-btn" onClick={handleMobileMenuToggle}>
                 <AlignLeft color="#FFF" size="30px" />
             </div>
         </nav>

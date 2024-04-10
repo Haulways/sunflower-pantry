@@ -41,6 +41,9 @@ html, body, .xui-font-9{
 .snf-navbar.alternative-nav-color .get-started-circle svg{
     color: #fff;
 }
+.snf-navbar.alternative-nav-color .menu-btn svg{
+    stroke: #000;
+}
 .nav-links::before{
     position: absolute;
     content: "";
@@ -162,16 +165,22 @@ html, body, .xui-font-9{
     .nav-links a{
         margin-bottom: 2rem;
     }
+    .snf-navbar.alternative-nav-color .nav-links a{
+        color: #FFF;
+    }
     .nav-links.open {
         left: 0;
     }
     .header-swiper{
-        height: 700px !important;
+        height: 800px !important;
     }
     .custom-holder{
         flex-basis: 100%;
     }
     .hx-category-line-box{
+        width: 100%;
+    }
+    .varieties-swiper{
         width: 100%;
     }
     

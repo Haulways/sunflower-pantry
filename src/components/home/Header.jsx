@@ -38,7 +38,7 @@ export default function Home(){
             <>
                 <div className='flex items-center'>
                     <div className='w-[20px] flex items-center justify-center'>{bulletNumber[0]}</div>
-                    <div className="custom-pagination flex xui-flex-ai-center px-[10px] h-[5px]">{bullets}</div>
+                    <div className="custom-pagination w-[calc(50%-40px)] flex xui-flex-ai-center px-[10px] h-[5px]">{bullets}</div>
                     <div className='w-[20px] flex items-center justify-center'>{bulletNumber[2]}</div>
                 </div>
                 
@@ -70,7 +70,7 @@ export default function Home(){
     return(
         <>
         <div id='home' className='relative'>
-            <div className="h-full w-full flex items-center lg:pl-[50px] pl-[20px] absolute z-10 text-[#FFF]">
+            <div className="h-full w-full overflow-x-hidden flex items-center lg:pl-[50px] pl-[20px] absolute z-10 text-[#FFF]">
                 <div className='lg:pt-[120px] pb-[70px] pt-[50px] w-full'>
                 <h1 className="lg:text-[350%] text-[250%] lg:w-[40%] w-full font-bold xui-font-9" data-aos="fade-up" data-aos-duration="800">Welcome To Sunflower Pantry</h1>
                 <p className='text-[90%] mt-[1rem] tracking-[.25em]'>Where Good Food Grows!</p>
@@ -92,7 +92,7 @@ export default function Home(){
                                 <div data-aos="fade-in" data-aos-delay="1000" data-aos-duration="800" className="hx-cat-badge cta-btn glass-bg text-center">Rice</div>
                             </section> */}
                         </div>
-                        <div className='xui-lg-col-6 xui-col-12 relative lg:block hidden overflow-hidden'>
+                        <div className='xui-lg-col-6 xui-col-12 relative overflow-hidden'>
                             <CustomPagination slideCount={3} activeIndex={0} onBulletClick={(index) => console.log(index)} />
                             <HeaderSlider />
                         </div>

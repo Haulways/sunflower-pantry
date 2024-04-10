@@ -36,7 +36,7 @@ export default function Varieties(){
             spaceBetween: 20,
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 30,
         },
         1280: {
