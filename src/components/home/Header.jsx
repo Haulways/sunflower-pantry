@@ -69,7 +69,7 @@ export default function Home(){
     }, [])
     return(
         <>
-        <div className='relative'>
+        <div id='home' className='relative'>
             <div className="h-full w-full flex items-center lg:pl-[50px] pl-[20px] absolute z-10 text-[#FFF]">
                 <div className='lg:pt-[120px] pb-[70px] pt-[50px] w-full'>
                 <h1 className="lg:text-[350%] text-[250%] lg:w-[40%] w-full font-bold xui-font-9" data-aos="fade-up" data-aos-duration="800">Welcome To Sunflower Pantry</h1>
