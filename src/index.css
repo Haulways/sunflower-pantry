@@ -98,30 +98,50 @@ html, body, .xui-font-9{
 }
 .active-bullet{
     opacity: 1;
-    /* color: red; */
 }
-/* .xui-overlay-1{
-    background-color: rgba(0,0,0,.2);
-} */
+
 .varieties-swiper{
     width: 960px;
     margin-left: inherit !important;
     overflow: visible !important;
-    /* overflow: initial !important;
-    margin-left: 0 !important; */
 }
-/* .varieties-swiper .swiper-slide{
-    width: 350px !important;
-} */
-/* .varieties-swiper .swiper-slide.swiper-slide-active{
-    width: 450px !important;
-} */
-/* .header-swiper2 .swiper-slide{
-    margin-right: 0 !important;
-} */
-/* .varieties-swiper .swiper-wrapper .swiper-slide{
-    margin-right: 50px !important;
-} */
+.hsd-loader-screen {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: var(--blue-light);
+}
+.hsd-loader-screen .hsd-loader-holder {
+    margin-top: 16px;
+    width: 100%;
+    height: 4px;
+    background-color: hsl(220, 52%, 15%);
+    position: relative;
+    overflow: hidden;
+}
+.hsd-loader-screen .hsd-loader-holder .hsd-loader-anime {
+    width: 72px;
+    height: 100%;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    animation-name: loader;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    from {
+        left: -72px;
+    }
+    to {
+        left: 200px;
+    }
+}
 @media screen and (max-width: 768px) {
     .nav-links{
         position: fixed;
