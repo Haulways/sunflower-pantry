@@ -47,7 +47,7 @@ export default function Navbar(){
         <nav className={`snf-navbar z-20 h-[90px] fixed w-full left-[0] ${navbarColor} lg:px-[50px] px-[20px] flex items-center justify-between`}>
             <div className="w-[100px]">
                 <HashLink to="/">
-                    <img className="max-w-[100px] w-full block" src={Logo} alt="" />
+                    <img className="max-w-[70px] mx-auto w-full block" src={Logo} alt="" />
                 </HashLink>
             </div>
             <div className={`nav-links px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px] nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
