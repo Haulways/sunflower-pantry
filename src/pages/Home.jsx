@@ -1,3 +1,4 @@
+import FAQ from "../components/FAQ";
 import About from "../components/home/About";
 import Contact from "../components/home/Contact";
 import Header from "../components/home/Header";
@@ -13,7 +14,7 @@ export default function Home(){
         <Varieties />
         <Recipes />
         <Whyus />
-        <Contact />
+        <FAQ />
         </>
     );
 }

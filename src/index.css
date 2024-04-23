@@ -5,6 +5,9 @@
 
 :root{
     --grey-first: #B7BBBB;
+    --grey-second: #ECECEC;
+    --light-grey: #F8F8F8;
+    --orange: #FFF5C1;
     --glass-bg:rgba( 255, 255, 255, 0.25 );
     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
     backdrop-filter: blur( 4px );
@@ -18,6 +21,15 @@ html, body, .xui-font-9{
 .glass-bg{
     background: var(--glass-bg)
 }
+.light-grey-bg{
+    background-color: var(--light-grey);
+  }
+.grey-second{
+    background-color: var(--grey-second);
+}
+.orange-bg{
+    background-color: var(--orange);
+}
 .hx-category-line-box {
     white-space: nowrap;
     scrollbar-width: none;  /* Firefox */
@@ -28,13 +40,16 @@ html, body, .xui-font-9{
     position: relative;
     z-index: 1;
 }
-.snf-navbar.alternative-nav-color{
-    background-color: #FFF;
+.snf-navbar.another-nav-color{
+    background-color: var(--light-grey);
 }
-.snf-navbar.alternative-nav-color .nav-links a{
+.snf-navbar.another-nav-color .nav-links a{
     color: #000;
 }
-.snf-navbar.alternative-nav-color .get-started, .snf-navbar.alternative-nav-color .get-started-circle{
+.snf-navbar.another-nav-color .nav-links{
+    box-shadow: 0px 4px 24px -3px #00000033;
+}
+.snf-navbar.alternative-nav-color .get-started{
     background-color: #000;
     color: #FFF;
 }
@@ -125,6 +140,14 @@ html, body, .xui-font-9{
     position: relative;
     overflow: hidden;
 }
+.xui-bg-none{
+    background: none;
+    border: none;
+    outline: none;
+  }
+  .search-keyword{
+    border: 1.5px solid #D9D9D9
+  }
 .hsd-loader-screen .hsd-loader-holder .hsd-loader-anime {
     width: 72px;
     height: 100%;
@@ -182,6 +205,12 @@ html, body, .xui-font-9{
     }
     .varieties-swiper{
         width: 100%;
+    }
+    .snf-navbar.another-nav-color .menu-btn svg{
+        stroke: #000;
+    }
+    .snf-navbar.another-nav-color .nav-links a{
+        color: #fff;
     }
     
 }

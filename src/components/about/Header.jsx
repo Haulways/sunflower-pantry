@@ -1,14 +1,8 @@
-import { Back } from "iconsax-react";
-import { X } from "react-feather";
-import { Link } from "react-router-dom";
 
 export default function Header(){
     return(
         <>
-        <div className="fixed overflow-y-auto bg-[#FFF] h-screen top-[0] left-[0] z-[30] w-full">
-            <Link to='/' className="absolute top-[50px] left-[50px]">
-                <Back size='30px' color='#000' />
-            </Link>
+        <div className="">
             <section className="lg:pt-[12rem] pt-[8rem] pb-[5rem] lg:px-[50px] text-center px-[20px]">
             <p className="text-[120%] xui-opacity-6">More About</p>
                 <h1 className="lg:text-[300%] text-[250%] xui-font-9 font-bold mt-[1rem] lg:w-[70%] w-full mx-auto">Sunflower Pantry Your Culinary Companion</h1>

@@ -11,27 +11,27 @@ export default function Navbar(){
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY >= 50) {
-                setNavbarColor("alternative-nav-color");
-                
-            } else {
-                if (location.pathname === '/about') {
-                    console.log("Setting navbar color to #000");
-                    setNavbarColor("alternative-nav-color");
-                } else {
-                    console.log("Setting navbar color to transparent");
+                setNavbarColor("another-nav-color");
+            } 
+            else {
+                if (location.pathname === '/') {
+                    console.log(location.pathname);
                     setNavbarColor("bg-[transparent]");
+                } 
+                else{
+                    console.log(location.pathname);
+                    setNavbarColor("another-nav-color");
                 }
             }
         };
 
-        // Set initial navbar color based on route
-        console.log("Current pathname:", location.pathname);
-        if (location.pathname === '/about') {
-            console.log("Setting navbar color to #000");
-            setNavbarColor("alternative-nav-color");
-        } else {
-            console.log("Setting navbar color to transparent");
+        if (location.pathname === '/') {
+            console.log(location.pathname);
             setNavbarColor("bg-[transparent]");
+        } 
+        else{
+            console.log(location.pathname);
+            setNavbarColor("another-nav-color");
         }
 
         window.addEventListener("scroll", handleScroll);
@@ -51,7 +51,7 @@ export default function Navbar(){
                 </HashLink>
             </div>
             <div className={`nav-links px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px] nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
-                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} smooth to="#home">Home</HashLink>
+                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} smooth to="/">Home</HashLink>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} smooth to="#about">About us</HashLink>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#social-categories">Social categories</HashLink>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#contact">Contact</HashLink>

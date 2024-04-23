@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Loader from "./components/Loader";
 import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 const Home = lazy(() => import('./pages/Home'));
 function App() {
   function ScrollToTop() {
@@ -23,10 +24,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route path='*' element={<h1>No Match</h1>} />
         </Routes>
       </Suspense>
-    {/* <Footer /> */}
+    <Footer />
     </>
   )
 }
