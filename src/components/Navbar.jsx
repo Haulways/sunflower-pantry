@@ -53,8 +53,8 @@ export default function Navbar(){
             <div className={`nav-links px-[2.5rem] py-[1rem] bg-[var(--glass-bg)] rounded-[100px] nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} smooth to="/">Home</HashLink>
                 <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} smooth to="#about">About us</HashLink>
-                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#social-categories">Social categories</HashLink>
-                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="#contact">Contact</HashLink>
+                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="/#social-categories">Social categories</HashLink>
+                <HashLink className="inline-block py-[0.3rem] px-[0.6rem] text-[#fff] no-underline my-[0] mx-[15px] lg:text-[95%] text-[120%] font-medium" onClick={handleMobileMenuToggle} to="/#contact">Contact</HashLink>
             </div>
             <HashLink smooth to='#about' className="lg:flex hidden items-center">
                 <div className="px-[2.5rem] py-[1rem] bg-[#fff] get-started rounded-[100px]">

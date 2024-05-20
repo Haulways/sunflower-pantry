@@ -32,70 +32,60 @@ export default function PrivacyPolicy(){
                 
             </section>
             <section className="xui-container xui-py-3">
-                <div className="xui-d-grid xui-lg-grid-col-2 xui-flex-ai-center xui-grid-col-1 xui-grid-gap-4">
+                <div className="xui-d-grid xui-lg-grid-col-1 xui-flex-ai-center xui-grid-col-1 xui-grid-gap-4">
                     <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">01)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Introduction</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Welcome to Sunflower Pantry! We are committed to safeguarding your privacy and ensuring the security of your personal information. This Privacy Policy outlines how Sunflower Pantry collects, uses, maintains, and discloses information obtained from users (each referred to as a "User") of our Sunflower Pantry mobile application ("App").</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">01)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Introduction</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Welcome to Sunflower Pantry! We are committed to safeguarding your privacy and ensuring the security of your personal information. This Privacy Policy outlines how Sunflower Pantry collects, uses, maintains, and discloses information obtained from users (each referred to as a "User") of our Sunflower Pantry mobile application ("App"). This Privacy Policy applies to all aspects of the App and extends to cover all products and services provided by Sunflower Pantry, emphasizing our dedication to protecting your privacy across all interactions with our platform.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">This Privacy Policy applies to all aspects of the App and extends to cover all products and services provided by Sunflower Pantry, emphasizing our dedication to protecting your privacy across all interactions with our platform.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">02)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Information We Collect</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Sunflower Pantry may collect personal identification information from Users in a variety of ways, including, but not limited to, when Users register an account within the App, subscribe to our newsletter, respond to a survey, or fill out a form. Users may be asked for, as appropriate, name, email add-ress, mailing address, and phone number. Users may, however, visit the App anonymously. Sunflower Pantry will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personal identification information, except that it may prevent them from engaging in certain App-related activities.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">02)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Information We Collect</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Sunflower Pantry may collect personal identification information from Users in a variety of ways, including, but not limited to, when Users register an account within the App, subscribe to our newsletter, respond to a survey, or fill out a form. Users may be asked for, as appropriate, name, email address, mailing address, and phone number. Users may, however, visit the App anonymously.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">03)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">How We Use Your Information</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Sunflower Pantry may collect and utilize Users' personal information for various purposes. Firstly, we use this information to enhance customer service by efficiently responding to their inquiries and support needs. Secondly, we employ collected data to customize the user experience, gaining insights 
+into how Users collectively interact with our App and its resources. Additionally, we may utilize Users' email addresses to send periodic updates,
+account-related information, and responses to inquiries. Users also have the option to opt into our mailing list, receiving emails containing 
+company news, updates, and related product or service information. Should Users wish to unsubscribe from receiving future emails, 
+detailed unsubscribe instructions are provided at the bottom of each email.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Sunflower Pantry will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personal identification information, except that it may prevent them from engaging in certain App-related activities.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">04)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Information Sharing and Disclosure</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">We may share your information with trusted third parties for various purposes, encompassing data processing, analytics, and marketing endeavors. These third parties may comprise service providers, business partners, or other entities with whom we have established contractual agreements to facilitate the delivery of our services and enhance your experience. Rest assured, we uphold a commitment to safeguarding your privacy, and 
+under no circumstances will we sell or rent your personal information to third parties without first obtaining your explicit consent.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">03)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">How We Use Your Information</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Sunflower Pantry may collect and utilize Users' personal information for various purposes. Firstly, we use this information to enhance customer service by efficiently responding to their inquiries and support needs. Secondly, we employ collected data to customize the user experience, gaining insights into how Users collectively interact with our App and its resources. Additionally, we may utilize Users' email addresses to send periodic updates, account-related information, and responses to inquiries.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">05)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Your Choices</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">You retain autonomy concerning the collection and utilization of your information within the app. You possess the option to opt-out of specific data collection practices, exercise control over the updating or deletion of your personal information, and regulate your communication preferences 
+within the app settings.  It's imperative to acknowledge that while exercising these choices, it's plausible that certain features of the app may 
+become unavailable should you opt to curtail the collection of particular information.
+</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Users also have the option to opt into our mailing list, receiving emails containing company news, updates, and related product or service information. Should Users wish to unsubscribe from receiving future emails, detailed unsubscribe instructions are provided at the bottom of each email.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">06)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Data Security</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Ensuring the security of your information is a paramount priority for us, and we have instituted robust measures to safeguard it against unauthorized access, disclosure, alteration, or destruction. These comprehensive measures encompass encryption protocols, stringent access controls, 
+and periodic security audits to fortify our defenses and maintain the integrity of your data. However, it's essential to recognize 
+that despite our diligent efforts, no method of transmission over the internet or electronic storage can be entirely 
+impervious to vulnerabilities and we cannot guarantee absolute security.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">04)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Information Sharing and Disclosure</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">We may share your information with trusted third parties for various purposes, encompassing data processing, analytics, and marketing endeavors. These third parties may comprise service providers, business partners, or other entities with whom we have established contractual agreements to facilitate the delivery of our services and enhance your experience.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">07)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Changes to This Privacy Policy</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Periodically, we reserve the right to update our privacy policy to align with evolving practices, as well as for operational, legal, or regulatory compliance purposes. Any alterations deemed material will be promptly communicated to you by means of posting the revised privacy policy on this page. We strongly advise you to make it a regular practice to periodically review this privacy policy so that you can stay well-informed about any 
+modifications or updates that may have been implemented.</p>
                     </div>
                     <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Rest assured, we uphold a commitment to safeguarding your privacy, and under no circumstances will we sell or rent your personal information to third parties without first obtaining your explicit consent.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">05)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Your Choices</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">You retain autonomy concerning the collection and utilization of your information within the app. You possess the option to opt-out of specific data collection practices, exercise control over the updating or deletion of your personal infor-mation, and regulate your communication preferences within the app settings.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half"> It's imperative to acknowledge that while exercising these choices, it's plausible that certain features of the app may become unavailable should you opt to curtail the collection of particular information.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">06)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Data Security</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Ensuring the security of your information is a paramount priority for us, and we have instituted robust measures to safeguard it against unauthorized access, disclosure, alteration, or destruction. These comprehensive measures encompass encryption protocols, stringent access controls, and periodic security audits to fortify our defenses and maintain the integrity of your data.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half"> However, it's essential to recognize that despite our diligent efforts, no method of transmission over the internet or electronic storage can be entirely impervious to vulnerabilities and we cannot guarantee absolute security.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">07)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Changes to This Privacy Policy</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">Periodically, we reserve the right to update our privacy policy to align with evolving practices, as well as for operational, legal, or regulatory compliance purposes. Any alterations deemed material will be promptly communicated to you by means of posting the revised privacy policy on this page.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half"> We strongly advise you to make it a regular practice to periodically review this privacy policy so that you can stay well-informed about any modifications or updates that may have been implemented.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-opacity-6">08)</p>
-                        <h3 className="xui-font-sz-150 xui-font-9 xui-mt-half">Contact Us</h3>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">If you have any questions or concerns about our privacy policy or our practices regarding your personal information, please contact us at [email address]. We will respond to your inquiry as soon as possible and work to address any concerns you may have.</p>
-                    </div>
-                    <div>
-                        <p className="xui-font-sz-80 xui-line-height-1-half xui-opacity-8 xui-mt-half">The protection of your privacy is of paramount importance to us, and we are steadfastly dedicated to ensuring the safeguarding and confidentiality of your personal information.</p>
+                        <p className="xui-font-sz-90 xui-opacity-6">08)</p>
+                        <h3 className="xui-font-sz-150  xui-mt-half">Contact Us</h3>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">If you have any questions or concerns about our privacy policy or our practices regarding your personal information, please contact us at [email address]. We will respond to your inquiry as soon as possible and work to address any concerns you may have. The protection of your privacy is 
+of paramount importance to us, and we are steadfastly dedicated to ensuring the safeguarding and confidentiality of your personal informa-
+tion.</p>
                     </div>
                 </div>
             </section>
